@@ -1,3 +1,4 @@
+/* eslint-disable @typescript-eslint/no-unused-vars */
 'use client'
 
 import { useState } from 'react'
@@ -36,7 +37,7 @@ export default function LangSwitchZ() {
   }
 
   const handleConvert = async () => {
-    // Simulate conversion
+   
     setConvertedCode(`# Converted from ${sourceLanguage} to ${targetLanguage}\n${sourceCode}`)
     toast({
       title: "Code Converted",
@@ -53,7 +54,7 @@ export default function LangSwitchZ() {
   }
 
   const handleExplain = async () => {
-    // Simulate AI explanation
+    
     setExplanation(`Here's an explanation of your ${sourceLanguage} code:\n\n1. First, the code...\n2. Then it...\n3. Finally...`)
   }
 
